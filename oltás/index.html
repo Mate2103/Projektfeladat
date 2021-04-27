@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Koronavírus hírek</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="gombkulso"><a href="../" class="gomb">Főoldal</a></div>
+        <div class="gombkulso"><a href="#" class="gomb">Oltás</a></div>
+        <div class="gombkulso"><a href="../fertőzöttek/" class="gomb">Fertőzöttek</a></div>
+        <div class="gombkulso"><a href="../korlátozások/" class="gomb">Korlátozások</a></div>
+        <div class="gombkulso"><a href="../iskolák/" class="gomb">Iskolák</a></div>
+        <div class="gombkulso" id="forras"><a href="../források/" class="gomb">Források</a></div>
+    </div>
+    <br><br>
+    <div class="cikk">
+        <h1 class="cim">Legfrisebb hírünk: <br> Közzétette a kormány, oltás után hányan fertőződtek és haltak meg</h1>
+        <img id="kep1"
+            src="https://kep.cdn.indexvas.hu/1/0/3774/37742/377427/37742747_37c2eb8e2d24af9f936d92f56863d6b8_wm.jpg"
+            alt="oltas">
+
+        <!-- <img id="kep1" src="https://medicover.hu/wp-content/uploads/2018/08/vedooltas-oltokozpont.jpg" alt="oltas"> -->
+
+        <p class="text">
+            Százszázalékos védelmet egyetlen vakcina sem nyújthat,
+            emiatt fordult elő, hogy a beoltottakból 273 ember vesztette életét az ű
+            oltóanyag felvétele után − derül ki a kormány által vasárnap közzétett adatokból.
+            Azért hozták nyilvánosságra az oltás utáni fertőzések és halálozások adatait, mert
+        </p>
+
+        <div class="kiemelt">
+            <p>a baloldali politikai erők többféle módon folytatják oltásellenes kampányukat. Ennek egyik formája az,
+                hogy
+                kétségbe vonják egyes vakcinatípusok hatékonyságát.
+            </p>
+        </div>
+
+        <p class="text">
+            A kormány szerint ezekből az adatokból jól látható, hogy az országban használt
+            vakcinák „hatékony és erős védelmet nyújtanak” a fertőzés ellen.
+        </p>
+
+        <div class="kiemelt">
+            <p>Az immunizáció után összesen 5714 ember betegedett meg, és 273 ember vesztette életét.</p>
+        </div>
+        <p class="text">A legkevesebb fertőzés és haláleset a <mark>Moderna</mark>-vakcina beadása után történt. Az
+            ezzel az oltóanyaggal történt immunizáció után 108 megbetegedés és 12 haláleset történt. Ez százezer
+            oltottra vetítve 177 megbetegedést és 20 halálesetet jelent. Az oltóanyagból a kormány 1 723 610 adagról
+            kötött megállapodást, ez 861 805 ember immunizálására elegendő. Eddig 284 400 adag érkezett meg a
+            vakcinából.</p>
+        <p class="text">A <mark>Szputnyik V</mark> vakcina beadása után mindössze 201 ember betegedett meg, ketten
+            haltak meg az immunizáció után. Százezer oltottra ez 95 megbetegedési és 1 halálozási adatot jelent. Az
+            oltóanyagból a kormány kétmillió adagot rendelt, ami egymillió ember immunizálására elegendő. Eddig 1 325
+            600 adag érkezett az országba ebből az oltóanyagból.</p>
+        <p class="text">Az <mark>AstraZeneca</mark> oltóanyagának használata után 613 esetben regisztráltak
+            megbetegedést, és hat ember halt bele a koronavírus szövődményeibe. Ez százezer oltottra vetítve 700
+            megbetegedést és hét halálesetet jelent. Az oltóanyagból összesen 6 513 460 adagot várnak az országba,
+            amiből 767 500 adag érkezett meg. A megrendelt vakcinák segítségével 3 256 730 ember válhat védetté.</p>
+        <p class="text">Azokban az esetekben, amikor a kínai <mark>Sinopharm</mark> oltóanyagát alkalmazták, 1744
+            megbetegedés történt, amiből 78 halálos kimenetelű volt. A számok százezer oltottra 356 megbetegedést és 16
+            halálesetet jelentenek. A kormány ötmillió adag szállítására kötött megállapodást, ami két és fél millió
+            ember immunizálására elegendő. Eddig az oltóanyagból 1,1 millió érkezett az országba.</p>
+        <p class="text">A legtöbb megbetegedést a <mark>Pfizer</mark> és a <mark>BioNTech</mark> vállalatok által
+            közösen fejlesztett oltóanyag alkalmazása után regisztrálták. Összesen az immunizálás után 3048 megbetegedés
+            történt, ami 175 esetben végződött halállal. Százezer oltottra levetítve ez 555 megbetegedést és 32
+            halálesetet jelent. A kormány ebből az oltóanyagból rendelte a legtöbb dózist, összesen 10 874 511 adag
+            vakcinát várnak, és 2 208 165 adag érkezett meg eddig belőle. Amennyiben az összes Pfizer-vakcina megérkezik
+            az országba, 5 437 256 ember beoltása lesz biztosított.
+        </p>
+        <table>
+            <tbody>
+                <tr>
+                    <th rowspan="3" class="sotet">Vakcinák</th>
+                    <th colspan="4" class="sotet">Immunizáció utáni események</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="sotet">megbetegedettek</th>
+                    <th colspan="2" class="sotet">elhunytak</th>
+                </tr>
+                <tr>
+                    <th id="magas" class="sotet">száma</th>
+                    <th class="sotet">százezer<br> oltottra<br> vetített<br> száma</th>
+                    <th class="sotet">száma</th>
+                    <th class="sotet">százezer<br> oltottra<br> vetített<br> száma</th>
+                </tr>
+                <tr>
+                    <th class="sotet">Szputnyik-V</th>
+                    <td class="vilagos">201</td>
+                    <td class="vilagos">95</td>
+                    <td class="vilagos">2</td>
+                    <td class="vilagos">1</td>
+                </tr>
+                <tr>
+                    <th class="sotet">Moderna</th>
+                    <td class="szurke">108</td>
+                    <td class="szurke">177</td>
+                    <td class="szurke">12</td>
+                    <td class="szurke">20</td>
+                </tr>
+                <tr>
+                    <th class="sotet">Sinopharm</th>
+                    <td class="vilagos">1744</td>
+                    <td class="vilagos">356</td>
+                    <td class="vilagos">78</td>
+                    <td class="vilagos">16</td>
+                </tr>
+                <tr>
+                    <th class="sotet">Pfizer/BioNTech</th>
+                    <td class="szurke">3048</td>
+                    <td class="szurke">555</td>
+                    <td class="szurke">175</td>
+                    <td class="szurke">32</td>
+                </tr>
+                <tr>
+                    <th class="sotet">AstraZeneca</th>
+                    <td class="vilagos">613</td>
+                    <td class="vilagos">700</td>
+                    <td class="vilagos">6</td>
+                    <td class="vilagos">7</td>
+                </tr>
+                <tr>
+                    <th class="sotet">Összesen</th>
+                    <th class="szurke">5714</th>
+                    <th class="szurke">408</th>
+                    <th class="szurke">273</th>
+                    <th class="szurke">20</th>
+                </tr>
+            </tbody>
+        </table>
+        <p class="text">Gulyás Gergely kancelláriaminiszter a csütörtöki kormányinfón beszélt arról, hogy az eddigi
+            vizsgálatok szerint a Sinopharm jobb oltóanyag, mint a Pfizer, de a legjobb a Szputnyik. Az RTL Klub
+            híradója arról számolt be, hogy a nemzetközi kutatások nem támasztják alá a miniszter megállapításait. A
+            szerbiai adatok szerint a Pfizerrel és AstraZenecával oltottak közül senki sem került kórházba, a Szputnyik
+            pedig a második legjobb eredményt hozta. A megfertőződés legalább egy oltás után az alábbi eredményt
+            mutatta:</p>
+        <ul class="text">
+            <li>Astrazeneca: 2,3 százalék,</li>
+            <li>Sinopharm: 2,2 százalék,</li>
+            <li>Szputnyik V: 1,8 százalék,</li>
+            <li>Pfizer–BioNTech: 1,1 százalék.</li>
+        </ul>
+        <iframe src="https://embed.rtl.hu/embed/1686019?autoplay=0" allowfullscreen="true" frameborder="0"></iframe> <!-- index.hu-ról másolva -->
+        <p class="text">Az országba további oltóanyagok várhatók. Szijjártó Péter 280 ezer (második komponens) orosz,
+            400 ezer kínai és további 200 ezer orosz (első komponens) vakcina érkezését jelentette be a WHO európai
+            igazgatójával való találkozása után.</p>
+        <div class="kiemelt">
+            <p>AZ ORSZÁGBAN EDDIG 3 596 129 FŐ KAPTA MEG LEGALÁBB AZ ELSŐ OLTÁST,</p>
+        </div>
+        <p class="text">ennek köszönhetően több területen is enyhített a kormány a karanténszabályokon. Többek között
+            megnyithattak a teraszok, és a kijárási tilalom is egy órával később veszi kezdetét.</p>
+        <p class="text">Vasárnapra virradóra 2328 új fertőzöttet regisztráltak, ezzel a járvány kezdete óta összesen 769
+            518 főre nőtt a beazonosított fertőzöttek száma. Elhunyt 205, többségében idős, krónikus beteg, így az
+            elhunytak száma 26 625 főre emelkedett. A gyógyultak száma folyamatosan nő, jelenleg 482 207 fő, az aktív
+            fertőzöttek száma pedig 260 686 főre csökkent. Kórházban 6284 koronavírusos beteget ápolnak, közülük 790-en
+            vannak lélegeztetőgépen.</p>
+        <br><br>
+        <h2>További híreink: </h2>
+        <div class="tovabbi">
+            <a
+                href="https://index.hu/belfold/2021/04/25/belfold-koronavirus-oltas-masodik-adag-szputnyik-v-honvedkorhaz-beszamolo/">
+
+                <img src="https://kep.cdn.indexvas.hu/1/0/3773/37737/377374/37737415_7b127cc30669fa307dcb86190bfd35c2_wm.jpg"
+                    alt="oltas">
+                <p>Így kaptam meg a második adag Szputnyikot</p>
+            </a>
+        </div>
+        <div class="tovabbi">
+            <a
+                href="https://index.hu/belfold/2021/04/04/orosz-vakcina-husvet-koronavirus-magyarorszag-oltas-honvedkorhaz-beszamolo/">
+
+                <img src="https://kep.cdn.indexvas.hu/1/0/3740/37404/374041/37404105_c603297974f13b6cccda49cbdaf82733_wm.jpg"
+                    alt="oltas">
+                <p>Orosz vakcinát hozott húsvétra a nyuszi, így oltottak be a Honvédkórházban</p>
+            </a>
+        </div>
+        <div class="tovabbi">
+            <a
+                href="https://index.hu/gazdasag/2021/04/27/kormanyzati-tajekoztatasi-kozpont-vakcina-tablazat/">
+
+                <img src="https://kep.cdn.indexvas.hu/1/0/3776/37768/377684/37768455_fb7924fc453f83e7757a1dc53eca1b87_wm.jpg"
+                    alt="oltas">
+                <p>Használhatatlan a kormány vakcinás táblázata</p>
+            </a>
+        </div>
+        <br><br>
+
+    </div>
+
+</body>
+
+</html>

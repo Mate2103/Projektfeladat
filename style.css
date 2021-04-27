@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #222222;
+}
+.menu {
+    height: 50px;
+    background-color: #888;
+    position: fixed;
+    width: 100%;
+}
+.gomb{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.gomb:hover{
+    color: #555555;
+}
+.gombkulso{
+    margin: 12.5px;
+    display: inline-block;
+}
+.gombkulso:hover{
+    color: #555555;
+}
+#forras{
+    float: right;
+    margin-right: 20px;
+}
+.tovabbi {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 7px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+.tovabbi:hover{
+    transform: scale(110%);
+    background-color: #555;
+}
+.tovabbi img {
+    padding: 10px;
+    padding-bottom: 0px !important;
+    height: 70%;
+    width: 90%;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tovabbi a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.tovabbi p {
+    margin-top: 5px;
+}
+.cikk {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.kiemelt {
+    font-weight: bold;
+    border-left: #888 3px solid;
+    padding-left: 15px;
+    font-size: 1.2em;
+}
+
+mark {
+    color: white;
+    background-color: inherit;
+    font-weight: 900;
+}
+.cim {
+    text-align: center;
+    color: white;
+}
+
+.text {
+    color: white;
+    display: block;
+    font-size: 1.3em;
+    text-align: justify;
+}
+#kep1 {
+    float: left;
+    width: 100%;
+}

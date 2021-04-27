@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Koronavírus hírek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class="menu">
+            <div class="gombkulso"><a href="../" class="gomb">Főoldal</a></div>
+            <div class="gombkulso"><a href="../oltás/" class="gomb">Oltás</a></div>
+            <div class="gombkulso"><a href="../fertőzöttek/" class="gomb">Fertőzöttek</a></div>
+            <div class="gombkulso"><a href="../korlátozások/" class="gomb">Korlátozások</a></div>
+            <div class="gombkulso"><a href="../iskolák/" class="gomb">Iskolák</a></div>
+            <div class="gombkulso" id="forras"><a href="#" class="gomb">Források</a></div>
+            <div id="div1"></div>
+        </div>
+        <script>
+            function load() {
+                var text;
+                var file = new XMLHttpRequest();
+                file.open("GET", "../forassok.txt", false);
+                file.onreadystatechange = function() {
+                    if (file.readyState === 4) {
+                        if (file.status === 200 || file.status == 0) {
+                            text = file.responseText;
+                            text = text.split("\n");
+                            for (const str of text) {
+                                var a = document.createElement("a");
+                                a.innerHTML = str;
+                                a.href = str;
+                                a.style.display = "block";
+                                document.getElementById("div1").appendChild(a);
+                                
+                            }
+                        }
+                    }
+                }
+                file.send(null);
+                console.log(text);
+            }
+    
+            window.onLoad = load();
+        </script>
+    </body>
+</html>
